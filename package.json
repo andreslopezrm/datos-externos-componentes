@@ -1,0 +1,22 @@
+{
+  "name": "datos-externos-components",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lit/context": "^1.1.1",
+    "@lit/task": "^1.0.0",
+    "echarts": "^5.5.0",
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

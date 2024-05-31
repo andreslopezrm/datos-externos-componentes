@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit + TS</title>
+    <script type="module" src="/src/main.ts"></script>
+    <style>
+      .container {
+        max-width: 50%;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <de-advance-container></de-advance-container> -->
+    <div class="container">
+      <pre>&#x3C;de-advance-container&#x3E;&#x3C;/de-advance-container&#x3E;</pre>
+      <de-advance-container></de-advance-container>
+    </div>
+    <hr />
+    <div class="container">
+      <pre>&#x3C;de-national-container&#x3E;&#x3C;/de-national-container&#x3E;</pre>
+      <de-national-container></de-national-container>
+    </div>
+    <hr />
+    <div class="container">
+      <pre>&#x3C;de-national-container chart=&#x22;horizontal&#x22;&#x3E;&#x3C;/de-national-container&#x3E;</pre>
+      <de-national-container chart="horizontal"></de-national-container>
+    </div>
+    <hr />
+    <div class="container">
+      <pre>&#x3C;de-national-container mode=&#x22;horizontal&#x22;&#x3E;&#x3C;/de-national-container&#x3E;</pre>
+      <de-national-container mode="horizontal"></de-national-container>
+    </div>
+  </body>
+</html>
